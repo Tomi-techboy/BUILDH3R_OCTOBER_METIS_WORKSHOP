@@ -67,6 +67,7 @@ const config: HardhatUserConfig = {
     metisSepolia: {
       url: "https://sepolia.metisdevops.link/",
       accounts: [deployerPrivateKey],
+      timeout: 200000,
       verify: {
         etherscan: {
           apiKey: "apiKey is not required, just set a placeholder",
